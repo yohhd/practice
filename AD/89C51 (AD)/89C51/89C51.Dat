@@ -1,0 +1,13 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~89C51.PrjPcb|ReportField=ProjectFullPath~E:\github\study\AD\89C51 (AD)\89C51\89C51.PrjPcb|ReportField=Title~Bill of Materials For Project [89C51.PrjPcb] (No PCB Document Selected)|ReportField=ReportTime~11:04:15|ReportField=ReportDate~2019/1/18|ReportField=ReportDateTime~2019/1/18 11:04:15|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~22|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~8a3821a78d3a6543726887a251c31008cf904d2f|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2019/1/18|ReportField=CurrentTime~11:02:42|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\github\study\AD\89C51 (AD)\89C51\89c51.SchDoc|ReportField=DocumentName~89c51.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2019/1/18|ReportField=Organization~|ReportField=ProjectName~89C51.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~89C51.PrjPcb|ReportField=DataSourceFullPath~E:\github\study\AD\89C51 (AD)\89C51\89C51.PrjPcb|ReportField=PCBConfigurationName~Default Configuration|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|10uF||C1||CAP|1
+2|22pF||C2, C3||CAP|2
+3|0.33uF||C4, C6, C8||CAP|3
+4|0.1uF||C5, C7, C9||CAP|3
+5|Header 8||P1, P2, P3, P4||CON8|4
+6|Header 11||P5||COM11|1
+7|CON2_1||P6||COM2_1|1
+8|电源端子||POWER||CON2|1
+9|10K||R1||RES|1
+10|7805||U1, U2, U3||7805|3
+11|89C51||U4||89C51|1
+12|晶振||Y1||CRY|1
