@@ -1,0 +1,35 @@
+Altium Designer Pick and Place Locations
+E:\github\study\AD\89C51 (AD)\89C51\Project Outputs for 89C51\Pick Place for 89C51.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       23/01/19
+Time:       15:11
+Revision:   0
+Variant:    No variations
+Units used: mm
+
+Designator Comment Layer    Footprint Center-X(mm) Center-Y(mm) Rotation 
+C1         CAP     TopLayer Cap0805   35.662       43.164       270      
+C2         CAP     TopLayer Cap0805   38.710       15.240       270      
+C3         CAP     TopLayer Cap0805   38.710       11.040       90       
+C4         CAP     TopLayer Cap0805   27.356       53.035       360      
+C5         CAP     TopLayer Cap0805   18.415       53.061       360      
+C6         CAP     TopLayer Cap0805   27.356       37.275       360      
+C7         CAP     TopLayer Cap0805   18.415       37.275       360      
+C8         CAP     TopLayer Cap0805   27.356       21.514       360      
+P1         CON8    TopLayer HDR1X8    62.916       53.594       270      
+P2         CON8    TopLayer HDR1X8    62.916       30.734       270      
+P3         CON8    TopLayer HDR1X8    38.557       30.734       90       
+P4         CON8    TopLayer HDR1X8    38.557       53.594       90       
+P5         CON11   TopLayer HDR1X11   4.318        43.815       270      
+P6         CON2_1  TopLayer HDR1X2    66.472       61.214       270      
+POWER      power   TopLayer µçÔ´¶Ë×Ó      7.010        13.005       270      
+R1         RES     TopLayer 0805R     35.662       39.183       270      
+U1         7805    TopLayer 3P_7805   21.895       26.238       180      
+U2         7805    TopLayer 3P_7805   21.895       42.100       180      
+U3         7805    TopLayer 3P_7805   21.895       57.963       180      
+U4         89C51   TopLayer 89c51     50.851       38.354       0        
+Y1         CRY     TopLayer XTAL      35.179       13.132       270      
+C9         CAP     TopLayer Cap0805   18.415       30.632       360      
