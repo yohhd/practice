@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Comment Form</title>
+<meta charset="utf-8">
+<style>
+label { display: block; 
+	    margin-top: 20px; }
+input { display: block;
+        margin-bottom: 20px; }
+</style>
+</head>
+<body>
+<h1>Comment Form</h1>
+<p>Required fields are marked with an asterisk *</p>
+
+<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+  <label for="myFirstName">* First Name</label>
+  <input type="text" name="myFirstName" id="myFirstName" required="required" placeholder="your first name">
+  <label for="myLastName">* Last Name</label>
+  <input type="text" name="myLastName" id="myLastName" required="required" placeholder="your last name">
+  <label for="myEmail">* E-mail</label>
+  <input type="email" name="myEmail" id="myEmail" required="required" placeholder="you@yourdomain.com">
+  <label for="myRating">Rating (1 &mdash; 10)</label>
+  <input type="range" name="myRating" id="myRating" min="1" max="10">
+  <label for="myComments">* Comments</label>
+  <textarea name="myComments" id="myComments" rows="2" cols="40" required="required" placeholder="your comments here"></textarea>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
