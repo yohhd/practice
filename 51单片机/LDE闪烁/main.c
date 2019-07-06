@@ -7,10 +7,10 @@ void main()
 	while(1)
 	{
 		//led1=0;
-		P2=0x55;
+		P1=0x55;
 		for(i=50000;i>0;i--);
 		//led1=1;
-		P2=0xaa;
+		P1=0xaa;
 		for(i=50000;i>0;i--);
 	}
 }

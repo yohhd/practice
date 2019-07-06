@@ -15,13 +15,13 @@ void main()
 	while(1)
 	{	for(j=7;j>0;j--)
 		{
-			P2=aa;
+			P1=aa;
 			delay();
 			aa=_crol_(aa,1);
 		 }
 		 for(j=7;j>0;j--)
 		 {
-		 	P2=aa;
+		 	P1=aa;
 			delay();
 			aa=_cror_(aa,1);
 		 }

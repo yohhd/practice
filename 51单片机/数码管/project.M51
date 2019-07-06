@@ -1,8 +1,8 @@
-BL51 BANKED LINKER/LOCATER V6.22                                                        04/02/2018  17:53:19  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    06/22/2019  19:47:56  PAGE 1
 
 
-BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
-C:\KEIL\C51\BIN\BL51.EXE main1.obj TO project RAMSIZE (256)
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+D:\PROGRAM FILES\KEIL_V5\C51\BIN\BL51.EXE main1.obj TO project RAMSIZE (256)
 
 
 MEMORY MODEL: SMALL
@@ -10,7 +10,7 @@ MEMORY MODEL: SMALL
 
 INPUT MODULES INCLUDED:
   main1.obj (MAIN1)
-  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+  D:\PROGRAM FILES\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
 
 
 LINK MAP OF MODULE:  project (MAIN1)
@@ -59,7 +59,7 @@ SYMBOL TABLE OF MODULE:  project (MAIN1)
   D:0090H         PUBLIC        P1
   D:00A0H         PUBLIC        P2
   D:00B0H         PUBLIC        P3
-BL51 BANKED LINKER/LOCATER V6.22                                                      04/02/2018  17:53:19  PAGE 2
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  06/22/2019  19:47:56  PAGE 2
 
 
   C:0049H         PUBLIC        table
