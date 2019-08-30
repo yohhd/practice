@@ -1,0 +1,73 @@
+C51 COMPILER V9.57.0.0   PART2_4_1                                                         06/24/2019 01:43:19 PAGE 1   
+
+
+C51 COMPILER V9.57.0.0, COMPILATION OF MODULE PART2_4_1
+OBJECT MODULE PLACED IN part2.4_1.OBJ
+COMPILER INVOKED BY: D:\Program Files\Keil_v5\C51\BIN\C51.EXE part2.4_1.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND TA
+                    -BS(2)
+
+line level    source
+
+   1          #include <reg52.h>      
+   2          #define uchar unsigned char
+   3          #define uint unsigned int
+   4          unsigned char flag,a,i;
+   5          uchar code table[]="I get ";
+   6          //uchar code table[]={'I',' ','g','e','t',' '};
+   7          void init()
+   8          {
+   9   1          TMOD = 0x20;
+  10   1          SCON = 0x50;
+  11   1          TH1 = 0xFD;
+  12   1          TL1 = TH1;
+  13   1          PCON = 0x00;
+  14   1          EA = 1;
+  15   1          ES = 1;
+  16   1          TR1 = 1;
+  17   1      }
+  18          void main()
+  19          {
+  20   1        init();
+  21   1        while(1)
+  22   1        {
+  23   2          if(flag==1)
+  24   2          {
+  25   3            ES=0;
+  26   3            for(i=0;i<6;i++)
+  27   3            {
+  28   4              SBUF=table[i];
+  29   4              while(!TI);
+  30   4              TI=0;
+  31   4            }
+  32   3            SBUF=a;
+  33   3            while(!TI);
+  34   3            TI=0;
+  35   3            ES=1;
+  36   3            flag=0;
+  37   3          }
+  38   2        }
+  39   1      }
+  40          
+  41          void ser() interrupt 4
+  42          {
+  43   1        RI=0;
+  44   1        a=SBUF;
+  45   1        flag=1;
+  46   1      }
+  47          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     79    ----
+   CONSTANT SIZE    =      7    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+C51 COMPILER V9.57.0.0   PART2_4_1                                                         06/24/2019 01:43:19 PAGE 2   
+
+   DATA SIZE        =      3    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
